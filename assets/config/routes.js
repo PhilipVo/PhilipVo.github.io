@@ -5,31 +5,23 @@ app.config(function ($routeProvider) {
 		templateUrl: 'partials/index.html',
 		controller: 'indexController'
 	})
-	.when('/login',{
-		templateUrl: 'partials/login.html',
-		controller: 'loginController'
+	.when('/about',{
+		templateUrl: 'partials/about.html',
+		controller: 'indexController'
 	})
-	.when('/register',{
-		templateUrl: 'partials/register.html',
-		controller: 'loginController'
+	.when('/skills',{
+		templateUrl: 'partials/skills.html',
+		controller: 'indexController'
 	})
-	.when('/profile',{
-		templateUrl: 'partials/profile.html',
-		controller: 'profileController'
-	})
-	.when('/favorites',{
-		templateUrl: 'partials/profile.html',
-		controller: 'favoriteController'
-	})
-	.when('/user/:username',{
-		templateUrl: 'partials/user.html',
-		controller: 'userController'
-	})
-	.when('/post/:id',{
-		templateUrl: 'partials/post.html',
-		controller: 'postController'
-	})
+	.when('/projects',{
+		templateUrl: 'partials/projects.html',
+		controller: 'indexController'
+	})		
+	.when('/contact',{
+		templateUrl: 'partials/contact.html',
+		controller: 'indexController'
+	})	
 	.otherwise({
 		redirectTo: '/'
-	});
+	})
 });

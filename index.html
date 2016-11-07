@@ -11,11 +11,13 @@
 	<link rel="stylesheet" type="text/css" href="static/css/stylesheet.css">
 	<!-- Font -->
 	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<!-- Font Awesome -->
+	<link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
 	<!-- Skeleton -->
-<!-- 	<link rel="stylesheet" type="text/css" href="static/css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="static/css/skeleton.css"> -->
+	<link rel="stylesheet" type="text/css" href="static/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="static/css/skeleton.css">
 	<!-- Icon -->
-	<link rel="icon" type="image/png" href="static/images/favicon.ico">
+	<link rel="icon" type="image/png" href="static/images/favicon.png">
 	<!-- Jquery -->
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<!-- Angular components -->
@@ -24,13 +26,16 @@
 	<!-- Angular files -->
 	<script src="assets/config/routes.js"></script>
 	<script src='assets/controllers/indexController.js'></script>
-	<!-- Semantic UI -->
-	<link rel="stylesheet" type="text/css" href="bower_components/semantic/dist/semantic.min.css">
-	<script src="bower_components/semantic/dist/semantic.min.js"></script>		
 </head>
 <body>
+	<!-- Header -->
+	<div class="row header">
+		<h1>Philip Vo</h1>
+		<p>Computer Engineer | Web Developer</p>
+	</div>
+	
 	<!-- Partials -->
-	<div class="ui main container" ng-view="">
+	<div class="container" ng-view="">
 	</div>
 </body>
 </html>
