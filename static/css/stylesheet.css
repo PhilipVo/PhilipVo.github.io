@@ -10,13 +10,16 @@
 
 .header {
 	text-align: center;
-	margin-top: 39px;
+}
+
+.container {
+	margin-bottom: 50px !important;
 }
 
 .sidebar {
-	border-top: 2px solid black;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 
 .sidebar a {
@@ -30,16 +33,16 @@
 }
 
 #profile_image {
+	margin-top: 10px;
 	width: 100%;
 	border-radius: 50%;
-	border: 2px solid black;
 }
 
 .item {
 	/*width: 100%;*/
 	text-align: center;
 	padding: 5px;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 .item:hover {
@@ -50,7 +53,7 @@
 	/*width: 100%;*/
 	text-align: center;
 	padding: 5px;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 .item_header {
@@ -81,4 +84,36 @@ i {
 
 i:hover {
 	color: #33c3f0;
+}
+
+tr td ul {
+	list-style-type: none !important;
+}
+
+tr td {
+	vertical-align: top !important;
+}
+
+.site {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.site:hover {
+	border: 1px solid rgba(0, 0, 0, 0.2);	
+}
+
+.no_underline {
+	text-decoration: none;
+}
+
+.stack {
+	text-align: center;
+}
+
+.stack img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
