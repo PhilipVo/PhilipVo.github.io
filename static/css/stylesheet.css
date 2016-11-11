@@ -108,6 +108,10 @@ tr td {
 	text-decoration: none;
 }
 
+.no_hover:hover {
+	color: #555;	
+}
+
 .stack {
 	text-align: center;
 }
