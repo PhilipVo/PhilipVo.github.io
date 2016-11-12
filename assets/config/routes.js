@@ -23,7 +23,7 @@ app.config(function ($routeProvider) {
 		templateUrl: 'partials/snippet.html'
 	})
 	.when('/localator',{
-		templateUrl: 'partials/loca.html'
+		templateUrl: 'partials/localator.html'
 	})
 	.when('/contact',{
 		templateUrl: 'partials/contact.html'
